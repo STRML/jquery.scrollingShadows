@@ -13,9 +13,6 @@
 
 (function ($) {
   $.fn.scrollingShadows = function(innerBoxSelector){
-    // Scrolling is for ballers only
-    if(!($.browser.webkit || $.browser.mozilla))
-      return;  // Sorry bros but you've gotta be modern to run this puppy
 
     var parent = this;
     var innerBox = parent.children(innerBoxSelector);
@@ -24,9 +21,10 @@
     parent.unbind("scroll");
     var overlay = $("<span>").addClass("scrollShadows-overlay");
     overlay.css({
+        left: parent.position().left + "px",
         top: parent.position().top + "px",
         height: parent.height() + "px",
-        width: parent.width() + "px"
+        width: innerBox.width() + "px"
     });
 
 
