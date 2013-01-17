@@ -1,0 +1,33 @@
+{
+  "name": "scrollingShadows",
+  "title": "jQuery Scrolling Shadows",
+  "description": "A jQuery Plugin for adding 3d-like shadows to scrolling boxes.",
+  "keywords": [
+    "shadows",
+    "scrolling",
+    "box-shadow"
+  ],
+  "version": "0.2.0",
+  "author": {
+    "name": "STRML (Samuel Reed)",
+    "url": "http://strml.net"
+  },
+  "maintainers": [
+    {
+      "name": "Samuel Reed",
+      "email": "samuel.trace.reed@gmail.com",
+      "url": "http://strml.net"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "bugs": "https://github.com/STRML/jquery.scrollingShadows/issues",
+  "homepage": "https://github.com/STRML/jquery.scrollingShadows",
+  "docs": "https://github.com/STRML/jquery.scrollingShadows",
+  "dependencies": {
+    "jquery": ">=1.5"
+  }
+}
