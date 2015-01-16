@@ -6,3 +6,9 @@ A simple jQuery plugin that creates a shadow on the edge of a scrolling box, ind
 Works in Firefox, Chrome, Safari, and IE9. Requires only box-shadow support.
 
 [Demo](http://strml.github.com/examples/jquery.scrollingShadows.html)
+
+
+License
+=======
+
+MIT
